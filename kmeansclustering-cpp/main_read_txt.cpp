@@ -9,7 +9,7 @@ int main(int argc, char **argv){
     }
 
     int dimSize = std::atoi(argv[1]); // Receber o tamanho do problema como argumento
-    int clusterCount = 20;
+    int clusterCount = 200;
     int iterationCount = 100;
     double threshold = 1;
 
