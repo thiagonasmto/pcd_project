@@ -2,6 +2,8 @@
 #define MY_VECTOR_CPP
 
 #include "./myVector.h"
+#include <omp.h>
+#include "../pascal-releases-master/include/pascalops.h"
 
 // default ctor
 template <class T>
@@ -202,9 +204,12 @@ void myVector<T>::voidBiject(const myVector<T>&rhs){
     if(rhs.intLength() != this->intSize){
         return;
     }else{
+        pascal_start(1);
+        #pragma omp parallel for
         for(int i=0;i<this->intSize;++i){
             this->ptrTData[i] = rhs.tGetByReference(i);
         }
+        pascal_stop(1);
     }
 }
 

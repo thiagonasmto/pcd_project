@@ -1,9 +1,9 @@
 #ifndef K_MEANS_CALC_CPP
 #define K_MEANS_CALC_CPP
 
-
 #include "./kMeansCalc.h"
 #include <omp.h>
+#include "../pascal-releases-master/include/pascalops.h"
 
 /*
  * ***************************
@@ -511,10 +511,12 @@ double kMeansCalc<T>::doubleFindOptimalClusters(const int&intClusterCount,const 
     */
     double doubleAvgIntraClusterDistance{0};
     if (this->intClusterCount > omp_get_max_threads()) {
+        pascal_start(1);
         #pragma omp parallel for reduction(+:doubleAvgIntraClusterDistance) schedule(dynamic)
         for (int i = 0; i < this->intClusterCount; ++i) {
             doubleAvgIntraClusterDistance += doubleGetClusterAvgEntropy(i);
         }
+        pascal_stop(1);
     } else {
         for (int i = 0; i < this->intClusterCount; ++i) {
             doubleAvgIntraClusterDistance += doubleGetClusterAvgEntropy(i);
@@ -1311,3 +1313,4 @@ bool kMeansCalc<T>::boolCheckIndexBounds(const int &index) const{
 
 
 #endif
+

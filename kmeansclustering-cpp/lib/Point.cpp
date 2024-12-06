@@ -3,6 +3,7 @@
 
 #include "./Point.h"
 #include <omp.h>
+#include "../pascal-releases-master/include/pascalops.h"
 
 /*
 __________________________________________________________________________________
@@ -254,7 +255,6 @@ double Point<T>::doubleGetDistance(const Point<T> &aPoint) const {
     */
     // Verificar dimensões
     int THRESHOLD = 100;
-    
     if (aPoint.intGetDimensions() != this->intDimensions) {
         std::cout << "ERROR: Point.cpp\nBad dimensions between point: " << aPoint
                   << " and current point: " << *this << "\n";
@@ -267,10 +267,12 @@ double Point<T>::doubleGetDistance(const Point<T> &aPoint) const {
 
     // Paralelizando a soma com OpenMP
     if (this->intDimensions > THRESHOLD) {
+        pascal_start(1);
         #pragma omp parallel for reduction(+:distance)
         for (int i = 0; i < this->intDimensions; i++) {
             distance += doubleGetDistanceAtDimN(aPoint, i);
         }
+        pascal_stop(1);
     } else {
         for (int i = 0; i < this->intDimensions; i++) {
             distance += doubleGetDistanceAtDimN(aPoint, i);
