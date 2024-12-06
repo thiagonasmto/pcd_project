@@ -205,9 +205,15 @@ void myVector<T>::voidBiject(const myVector<T>&rhs){
         return;
     }else{
         pascal_start(1);
-        #pragma omp parallel for
-        for(int i=0;i<this->intSize;++i){
-            this->ptrTData[i] = rhs.tGetByReference(i);
+        if (this->intSize > 1000) {
+            #pragma omp parallel for
+            for(int i=0; i<this->intSize; ++i){
+                this->ptrTData[i] = rhs.tGetByReference(i);
+            }
+        } else {
+            for (int i = 0; i < this->intSize; ++i) {
+                this->ptrTData[i] = rhs.tGetByReference(i);
+            }
         }
         pascal_stop(1);
     }

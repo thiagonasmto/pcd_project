@@ -8,6 +8,6 @@
 #SBATCH --time=0-0:10
 #SBATCH --partition=amd-512
 
-pascalanalyzer -t aut -c 1,2,4,8,16,32,64,128 -i 7,13,25,50,100,200,400,800 -o main_read_txt_200_clusters.json ./main_read_txt
+pascalanalyzer -t aut -c 1,2,4,8,16,32,64,128 -i 7,13,25,50,100,200,400,800 -o main_read_txt_version_3.json ./main_read_txt
 
 
