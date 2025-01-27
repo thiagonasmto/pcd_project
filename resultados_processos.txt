@@ -1,7 +1,119 @@
-2 total processes failed to start
-4 total processes failed to start
-8 total processes failed to start
-16 total processes failed to start
-32 total processes failed to start
-64 total processes failed to start
-128 total processes failed to start
+n = 1000000, Integral = 2.430000000001203e+02, Tempo = 0.001984 segundos
+n = 2000000, Integral = 2.430000000000259e+02, Tempo = 0.003945 segundos
+n = 4000000, Integral = 2.430000000000106e+02, Tempo = 0.008119 segundos
+n = 8000000, Integral = 2.430000000000049e+02, Tempo = 0.015728 segundos
+n = 16000000, Integral = 2.430000000000178e+02, Tempo = 0.031432 segundos
+n = 32000000, Integral = 2.430000000000028e+02, Tempo = 0.062806 segundos
+n = 64000000, Integral = 2.429999999999768e+02, Tempo = 0.125626 segundos
+n = 128000000, Integral = 2.430000000000256e+02, Tempo = 0.251224 segundos
+n = 1000000, Integral = 2.430000000001228e+02, Tempo = 0.001014 segundos
+n = 2000000, Integral = 2.430000000000349e+02, Tempo = 0.001972 segundos
+n = 4000000, Integral = 2.430000000000044e+02, Tempo = 0.003961 segundos
+n = 8000000, Integral = 2.429999999999997e+02, Tempo = 0.007876 segundos
+n = 16000000, Integral = 2.429999999999834e+02, Tempo = 0.015717 segundos
+n = 32000000, Integral = 2.430000000000098e+02, Tempo = 0.031421 segundos
+n = 64000000, Integral = 2.429999999999909e+02, Tempo = 0.062839 segundos
+n = 128000000, Integral = 2.429999999999872e+02, Tempo = 0.125684 segundos
+n = 1000000, Integral = 2.430000000001222e+02, Tempo = 0.000518 segundos
+n = 2000000, Integral = 2.430000000000311e+02, Tempo = 0.001078 segundos
+n = 4000000, Integral = 2.430000000000047e+02, Tempo = 0.002868 segundos
+n = 8000000, Integral = 2.430000000000033e+02, Tempo = 0.005696 segundos
+n = 16000000, Integral = 2.429999999999922e+02, Tempo = 0.011466 segundos
+n = 32000000, Integral = 2.429999999999960e+02, Tempo = 0.022827 segundos
+n = 64000000, Integral = 2.430000000000096e+02, Tempo = 0.045579 segundos
+n = 128000000, Integral = 2.429999999999823e+02, Tempo = 0.091183 segundos
+n = 1000000, Integral = 2.430000000001208e+02, Tempo = 0.000266 segundos
+n = 2000000, Integral = 2.430000000000313e+02, Tempo = 0.000497 segundos
+n = 4000000, Integral = 2.430000000000080e+02, Tempo = 0.000983 segundos
+n = 8000000, Integral = 2.430000000000024e+02, Tempo = 0.001974 segundos
+n = 16000000, Integral = 2.430000000000003e+02, Tempo = 0.003963 segundos
+n = 32000000, Integral = 2.429999999999979e+02, Tempo = 0.007867 segundos
+n = 64000000, Integral = 2.430000000000057e+02, Tempo = 0.015749 segundos
+n = 128000000, Integral = 2.430000000000057e+02, Tempo = 0.031616 segundos
+n = 1000000, Integral = 2.430000000001212e+02, Tempo = 0.000205 segundos
+n = 2000000, Integral = 2.430000000000302e+02, Tempo = 0.000368 segundos
+n = 4000000, Integral = 2.430000000000081e+02, Tempo = 0.000713 segundos
+n = 8000000, Integral = 2.430000000000020e+02, Tempo = 0.001437 segundos
+n = 16000000, Integral = 2.430000000000007e+02, Tempo = 0.002861 segundos
+n = 32000000, Integral = 2.430000000000020e+02, Tempo = 0.005750 segundos
+n = 64000000, Integral = 2.430000000000001e+02, Tempo = 0.011500 segundos
+n = 128000000, Integral = 2.429999999999992e+02, Tempo = 0.022521 segundos
+n = 1000000, Integral = 2.430000000001218e+02, Tempo = 0.000544 segundos
+n = 2000000, Integral = 2.430000000000302e+02, Tempo = 0.000229 segundos
+n = 4000000, Integral = 2.430000000000078e+02, Tempo = 0.000517 segundos
+n = 8000000, Integral = 2.430000000000020e+02, Tempo = 0.000842 segundos
+n = 16000000, Integral = 2.429999999999997e+02, Tempo = 0.001695 segundos
+n = 32000000, Integral = 2.430000000000003e+02, Tempo = 0.003173 segundos
+n = 64000000, Integral = 2.430000000000012e+02, Tempo = 0.005789 segundos
+n = 128000000, Integral = 2.429999999999979e+02, Tempo = 0.011708 segundos
+n = 1000000, Integral = 2.429533469860419e+02, Tempo = 0.011029 segundos
+n = 2000000, Integral = 2.430000000000304e+02, Tempo = 0.000123 segundos
+n = 4000000, Integral = 2.430000000000077e+02, Tempo = 0.000199 segundos
+n = 8000000, Integral = 2.430000000000018e+02, Tempo = 0.000357 segundos
+n = 16000000, Integral = 2.430000000000006e+02, Tempo = 0.000643 segundos
+n = 32000000, Integral = 2.430000000000001e+02, Tempo = 0.001686 segundos
+n = 64000000, Integral = 2.430000000000003e+02, Tempo = 0.002625 segundos
+n = 128000000, Integral = 2.430000000000005e+02, Tempo = 0.005728 segundos
+Rodando com 2 processos.
+n = 1000000, Número de Processos = 2, Integral = 2.430000000001203e+02, Tempo = 0.001996 segundos
+n = 2000000, Número de Processos = 2, Integral = 2.430000000000259e+02, Tempo = 0.003938 segundos
+n = 4000000, Número de Processos = 2, Integral = 2.430000000000106e+02, Tempo = 0.007879 segundos
+n = 8000000, Número de Processos = 2, Integral = 2.430000000000049e+02, Tempo = 0.015726 segundos
+n = 16000000, Número de Processos = 2, Integral = 2.430000000000178e+02, Tempo = 0.031441 segundos
+n = 32000000, Número de Processos = 2, Integral = 2.430000000000028e+02, Tempo = 0.062873 segundos
+n = 64000000, Número de Processos = 2, Integral = 2.429999999999768e+02, Tempo = 0.125745 segundos
+n = 128000000, Número de Processos = 2, Integral = 2.430000000000256e+02, Tempo = 0.251656 segundos
+Rodando com 4 processos.
+n = 1000000, Número de Processos = 4, Integral = 2.430000000001228e+02, Tempo = 0.001094 segundos
+n = 2000000, Número de Processos = 4, Integral = 2.430000000000349e+02, Tempo = 0.001969 segundos
+n = 4000000, Número de Processos = 4, Integral = 2.430000000000044e+02, Tempo = 0.003934 segundos
+n = 8000000, Número de Processos = 4, Integral = 2.429999999999997e+02, Tempo = 0.007881 segundos
+n = 16000000, Número de Processos = 4, Integral = 2.429999999999834e+02, Tempo = 0.015759 segundos
+n = 32000000, Número de Processos = 4, Integral = 2.430000000000098e+02, Tempo = 0.031460 segundos
+n = 64000000, Número de Processos = 4, Integral = 2.429999999999909e+02, Tempo = 0.062918 segundos
+n = 128000000, Número de Processos = 4, Integral = 2.429999999999872e+02, Tempo = 0.125868 segundos
+Rodando com 8 processos.
+n = 1000000, Número de Processos = 8, Integral = 2.430000000001222e+02, Tempo = 0.000508 segundos
+n = 2000000, Número de Processos = 8, Integral = 2.430000000000311e+02, Tempo = 0.000988 segundos
+n = 4000000, Número de Processos = 8, Integral = 2.430000000000047e+02, Tempo = 0.001975 segundos
+n = 8000000, Número de Processos = 8, Integral = 2.430000000000033e+02, Tempo = 0.003968 segundos
+n = 16000000, Número de Processos = 8, Integral = 2.429999999999922e+02, Tempo = 0.007888 segundos
+n = 32000000, Número de Processos = 8, Integral = 2.429999999999960e+02, Tempo = 0.015744 segundos
+n = 64000000, Número de Processos = 8, Integral = 2.430000000000096e+02, Tempo = 0.031454 segundos
+n = 128000000, Número de Processos = 8, Integral = 2.429999999999823e+02, Tempo = 0.062928 segundos
+Rodando com 16 processos.
+n = 1000000, Número de Processos = 16, Integral = 2.430000000001208e+02, Tempo = 0.000262 segundos
+n = 2000000, Número de Processos = 16, Integral = 2.430000000000313e+02, Tempo = 0.000930 segundos
+n = 4000000, Número de Processos = 16, Integral = 2.430000000000080e+02, Tempo = 0.001458 segundos
+n = 8000000, Número de Processos = 16, Integral = 2.430000000000024e+02, Tempo = 0.002928 segundos
+n = 16000000, Número de Processos = 16, Integral = 2.430000000000003e+02, Tempo = 0.005738 segundos
+n = 32000000, Número de Processos = 16, Integral = 2.429999999999979e+02, Tempo = 0.011512 segundos
+n = 64000000, Número de Processos = 16, Integral = 2.430000000000057e+02, Tempo = 0.022941 segundos
+n = 128000000, Número de Processos = 16, Integral = 2.430000000000057e+02, Tempo = 0.045834 segundos
+Rodando com 32 processos.
+n = 1000000, Número de Processos = 32, Integral = 2.430000000001212e+02, Tempo = 0.000206 segundos
+n = 2000000, Número de Processos = 32, Integral = 2.430000000000302e+02, Tempo = 0.000359 segundos
+n = 4000000, Número de Processos = 32, Integral = 2.430000000000081e+02, Tempo = 0.000723 segundos
+n = 8000000, Número de Processos = 32, Integral = 2.430000000000020e+02, Tempo = 0.001432 segundos
+n = 16000000, Número de Processos = 32, Integral = 2.430000000000007e+02, Tempo = 0.002911 segundos
+n = 32000000, Número de Processos = 32, Integral = 2.430000000000020e+02, Tempo = 0.005734 segundos
+n = 64000000, Número de Processos = 32, Integral = 2.430000000000001e+02, Tempo = 0.011506 segundos
+n = 128000000, Número de Processos = 32, Integral = 2.429999999999992e+02, Tempo = 0.022723 segundos
+Rodando com 64 processos.
+n = 1000000, Número de Processos = 64, Integral = 2.430000000001218e+02, Tempo = 0.000106 segundos
+n = 2000000, Número de Processos = 64, Integral = 2.430000000000302e+02, Tempo = 0.000316 segundos
+n = 4000000, Número de Processos = 64, Integral = 2.430000000000078e+02, Tempo = 0.000669 segundos
+n = 8000000, Número de Processos = 64, Integral = 2.430000000000020e+02, Tempo = 0.001143 segundos
+n = 16000000, Número de Processos = 64, Integral = 2.429999999999997e+02, Tempo = 0.002080 segundos
+n = 32000000, Número de Processos = 64, Integral = 2.430000000000003e+02, Tempo = 0.003862 segundos
+n = 64000000, Número de Processos = 64, Integral = 2.430000000000012e+02, Tempo = 0.006427 segundos
+n = 128000000, Número de Processos = 64, Integral = 2.429999999999979e+02, Tempo = 0.012004 segundos
+Rodando com 128 processos.
+n = 1000000, Número de Processos = 128, Integral = 2.429533469860419e+02, Tempo = 0.009271 segundos
+n = 2000000, Número de Processos = 128, Integral = 2.430000000000304e+02, Tempo = 0.000120 segundos
+n = 4000000, Número de Processos = 128, Integral = 2.430000000000077e+02, Tempo = 0.000239 segundos
+n = 8000000, Número de Processos = 128, Integral = 2.430000000000018e+02, Tempo = 0.000484 segundos
+n = 16000000, Número de Processos = 128, Integral = 2.430000000000006e+02, Tempo = 0.000967 segundos
+n = 32000000, Número de Processos = 128, Integral = 2.430000000000001e+02, Tempo = 0.001960 segundos
+n = 64000000, Número de Processos = 128, Integral = 2.430000000000003e+02, Tempo = 0.003080 segundos
+n = 128000000, Número de Processos = 128, Integral = 2.430000000000005e+02, Tempo = 0.004865 segundos
